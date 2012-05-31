@@ -1,8 +1,19 @@
-C99 Implementation of the Center Surround Extremas, described in [1].
+C99 Implementation of the Center Surround Extremas, described in [1]. The purpos
+of this library is to provide an implementation of CenSurE without the need for
+a huge library like OpenCV. libcensure concentrates exclusively on one algorithm
+and its implementation. Though the main goal was not to have the fastest
+implementation but a working one that is easy to use, speed improvements may be
+made in future releases.
+
+
+Installation Instructions
 
 To install the library, run make and copy src/libcensure.h and the resulting
-libcensure.so to the appropriate places.
+libcensure.so to the appropriate places. In a future version, a make install
+target might be provided.
 
+
+References
 
 [1] Agrawal, M, Konolige, K & Blas, MR 2008, 'CenSurE: Center Surround Extremas
     for Realtime Feature Detection and Matching', The 10th European Conference

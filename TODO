@@ -1,2 +1,5 @@
 - write a lengthy explanation on how to use the API
 - make install routine
+- store all filter parameters locally (static) to the filter.c file, as they
+  don't change. thus, memory allocation will not be required. make sure that the
+  API is easily extendable, however!
