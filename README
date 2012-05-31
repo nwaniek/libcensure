@@ -1,0 +1,9 @@
+C99 Implementation of the Center Surround Extremas, described in [1].
+
+To install the library, run make and copy src/libcensure.h and the resulting
+libcensure.so to the appropriate places.
+
+
+[1] Agrawal, M, Konolige, K & Blas, MR 2008, 'CenSurE: Center Surround Extremas
+    for Realtime Feature Detection and Matching', The 10th European Conference
+    on Computer VisionSpringer, pp. 102-115.
