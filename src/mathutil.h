@@ -1,7 +1,7 @@
 #ifndef __MATHUTIL_H__F496A8C3_62D6_4A5E_80BB_BCB2489559AF
 #define __MATHUTIL_H__F496A8C3_62D6_4A5E_80BB_BCB2489559AF
 
-#include <libcensure.h>
+#include "libcensure.h"
 
 struct point {
 	int x, y;

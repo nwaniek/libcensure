@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 #include <stdbool.h>
-#include <libcensure.h>
+#include "libcensure.h"
 
 DLL_LOCAL void features_alloc(struct csx_features **fs, unsigned n);
 DLL_LOCAL void features_realloc(struct csx_features *fs, unsigned n);

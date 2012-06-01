@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 #include <math.h>
-#include <libcensure.h>
+#include "libcensure.h"
 #include "feature.h"
 #include "intimg.h"
 
